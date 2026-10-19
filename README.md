@@ -1,6 +1,18 @@
 # Universal Desktop Environment (UDE)
 
+**One desktop. Every application. Your way.**
+
 An open-source project exploring a universal, adaptable desktop environment that brings different operating systems, applications and technologies together through a consistent interface.
+
+## Original Design & Vision
+
+The original whiteboard sketches are the starting point for UDE's design. They illustrate the desktop layout, launcher, window management, cross-platform vision, responsive layouts and modular architecture.
+
+[**Explore the original whiteboard sketches and design documentation →**](docs/design/README.md)
+
+[![Original UDE whiteboard sketch showing the desktop layout](docs/design/01-universal-desktop-layout.jpg)](docs/design/README.md)
+
+The additional [AI-generated concept illustration](docs/design/06-ai-concept-mockup.png) is a visual interpretation of the design, **not** a screenshot of working software.
 
 ## About
 
@@ -25,7 +37,7 @@ Projects may include desktop software, browser extensions, system utilities, dev
 
 UDE is an experimental project in its early stages of development.
 
-Contributions, suggestions and constructive feedback are welcome.
+Contributions, suggestions and constructive feedback are welcome. The [design documentation](docs/design/README.md) provides context for potential contributors; concepts shown there are not necessarily implemented.
 
 ---
 

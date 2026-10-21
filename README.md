@@ -2,43 +2,32 @@
 
 **One desktop. Every application. Your way.**
 
-An open-source project exploring a universal, adaptable desktop environment that brings different operating systems, applications and technologies together through a consistent interface.
+UDE is an experimental **cross-platform desktop environment and graphical shell** design exploring a consistent user interface on Linux, Windows and macOS, with modular application launchers, configurable taskbars, native file management and adaptable window controls.
 
-## Original Design & Vision
+> **Design reference, not a working cross-platform desktop release.** This repository preserves the original design sketches and research. The [UDE implementation repository](https://github.com/ude-desktop/ude) tracks the desktop project itself.
 
-The original whiteboard sketches are the starting point for UDE's design. They illustrate the desktop layout, launcher, window management, cross-platform vision, responsive layouts and modular architecture.
+## Original design and whiteboards
 
-[**Explore the original whiteboard sketches and design documentation →**](docs/design/README.md)
+[**Explore all original design sketches and their explanations →**](docs/design/README.md)
 
 [![Original UDE whiteboard sketch showing the desktop layout](docs/design/01-universal-desktop-layout.jpg)](docs/design/README.md)
 
-The additional [AI-generated concept illustration](docs/design/06-ai-concept-mockup.png) is a visual interpretation of the design, **not** a screenshot of working software.
+The [AI-generated concept illustration](docs/design/06-ai-concept-mockup.png) is a visual interpretation, **not** a working screenshot.
 
-## About
+## Technical design areas
 
-UDE aims to provide a unified desktop experience across different operating systems, allowing users to work with applications and tools from multiple platforms within a common interface.
+- **Desktop shell:** launcher, start/home screen, application overview, taskbar, tray, window decorations, tiling and task switching.
+- **Host integration:** Linux desktop services and Nautilus, plus proposed Windows and macOS adapters for native applications, system settings and file management.
+- **Responsive interaction:** mouse, keyboard and touch, including tablet layouts and adaptable screen sizes.
+- **Modular architecture:** UDE Lite on an existing desktop stack versus a possible UDE Full session; neither should be represented as completed.
+- **Application discovery:** native installed applications, real metadata/categories and consistent launching across host platforms.
 
-The project focuses on:
+See [technical focus](docs/technical-focus.md) for developer collaboration areas and [contributing](CONTRIBUTING.md) for how to propose changes to the original design.
 
-- **Compatibility** — Bringing applications from different operating systems together.
-- **Consistency** — Providing a unified interface and user experience.
-- **Customisation** — Allowing users to configure their desktop environment to suit their needs.
-- **Simplicity** — Making complex technology easier to use.
-- **Accessibility** — Keeping software approachable and practical.
-- **Openness** — Supporting open-source development and collaboration.
+## Why this repository exists
 
-## Projects
+The original whiteboard sketches are the primary source for the intended UX, including the desktop layout, launcher, navigation, window controls and platform-adaptation ideas. They are reference material, not pixel-perfect requirements. A proof of concept should link to the relevant sketch and state exactly what is functional.
 
-This GitHub account hosts the development of UDE alongside various independent software projects, applications, utilities and experiments.
-
-Projects may include desktop software, browser extensions, system utilities, development tools and other useful applications.
-
-## Development
-
-UDE is an experimental project in its early stages of development.
-
-Contributions, suggestions and constructive feedback are welcome. The [design documentation](docs/design/README.md) provides context for potential contributors; concepts shown there are not necessarily implemented.
-
----
+**Status:** Early design/research. Independent project work is not automatically part of UDE; do not infer support for other software or platforms from diagrams.
 
 *Useful software. Open development.*
